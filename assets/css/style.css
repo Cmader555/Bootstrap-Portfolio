@@ -52,7 +52,7 @@ h3 {
 
 /* header */
 
-#masthead {
+.navbar {
   position: fixed;
   z-index: 99;
   width: 100%;
@@ -65,7 +65,7 @@ h3 {
 
 #logo {
   float: left;
-  width: 250px;
+  width: 275px;
   height: 90px;
   font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 30px;
@@ -78,23 +78,12 @@ h3 {
 }
 
 nav {
-  float: right;
+  /* float: right; */ 
   margin-top: 25px;
 }
 
-nav a {
-  display: inline-block;
-  padding-left: 15px;
-  margin-left: 15px;
-  line-height: 18px;
-  color: #999;
-  text-decoration: none;
-  border-left: 1px solid #efefef;
-}
 
-nav a:first-child {
-  border-left: 0 none;
-}
+
 
 /* footer */
 
@@ -118,6 +107,10 @@ h3, h2 {
 }
 
 /* main */
+.maincontain {
+  max-width: 960px;
+  margin: 0 auto; 
+}
 
 #main-container {
   padding-top: 130px;
@@ -171,6 +164,7 @@ h3, h2 {
 .auth-image {
   float: left;
   width: 200px;
+  height: 200px; 
   height: auto;
   margin-top: 10px;
   margin-right: 25px;
@@ -214,4 +208,17 @@ input[type=submit] {
   cursor: pointer;
   background: #4aaaa5;
   border: 0 none;
+}
+
+.navbar-custom {
+  background-color: #ffffff
+}
+
+.bordleft {
+  border-left: 1px solid #efefef; 
+}
+
+.col-sm-12 {
+  padding-right: 0; 
+  padding-left: 0; 
 }
