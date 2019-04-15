@@ -222,3 +222,7 @@ input[type=submit] {
   padding-right: 0; 
   padding-left: 0; 
 }
+
+ul {
+  list-style: none; 
+}
